@@ -1,0 +1,10 @@
+bin/
+obj/
+.vs/
+.user
+.DS_Store
+**/publish/
+**/dist/
+.env
+secrets.json
+*.p12

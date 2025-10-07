@@ -1,0 +1,13 @@
+name: "💡 Feature Request"
+description: "Suggest a new feature for the SQL Quest Game"
+title: "[FEATURE] "
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: feature
+    attributes:
+      label: Describe the feature
+  - type: textarea
+    id: rationale
+    attributes:
+      label: Why is this useful?

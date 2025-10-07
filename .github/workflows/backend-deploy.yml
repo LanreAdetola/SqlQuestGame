@@ -1,0 +1,27 @@
+name: Build & Deploy API
+
+on:
+  push:
+    branches: [ main ]
+    paths:
+      - 'src/SqlQuestGame.Server/**'
+
+jobs:
+  build-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: '8.0.x'
+
+      - name: Build and Publish
+        run: dotnet publish src/SqlQuestGame.Server -c Release -o publish
+
+      - name: Deploy to Azure Web App
+        uses: azure/webapps-deploy@v3
+        with:
+          app-name: sqlquest-api
+          publish-profile: ${{ secrets.AZURE_PUBLISH_PROFILE }}
+          package: publish
