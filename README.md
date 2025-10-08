@@ -137,18 +137,10 @@ By working through this project you will:
 - Connect Entity Framework Core to the Azure SQL Database
 - Create question and user models and persistence
 - Add the first interactive SQL challenge and tests
-
-Built in public by Lanre 🚀 — a mentorship-style project to learn, build, and share real cloud development practices.
 - Apply DevOps best practices with CI/CD automation
 - Manage cloud resources using Infrastructure as Code (Bicep)
 - Gain hands-on experience with Blazor + Azure SQL
 - Learn modern cloud architecture patterns
 
-## Next steps (Phase 1)
-
-- Implement API endpoints for running and validating queries
-- Connect Entity Framework Core to the Azure SQL Database
-- Create question and user models and persistence
-- Add the first interactive SQL challenge and tests
 
 Built in public by Lanre 🚀 — a mentorship-style project to learn, build, and share real cloud development practices.
