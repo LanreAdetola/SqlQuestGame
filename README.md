@@ -138,9 +138,6 @@ By working through this project you will:
 - Create question and user models and persistence
 - Add the first interactive SQL challenge and tests
 - Apply DevOps best practices with CI/CD automation
-- Manage cloud resources using Infrastructure as Code (Bicep)
-- Gain hands-on experience with Blazor + Azure SQL
-- Learn modern cloud architecture patterns
 
 
 Built in public by Lanre 🚀 — a mentorship-style project to learn, build, and share real cloud development practices.
