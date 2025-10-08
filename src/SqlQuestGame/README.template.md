@@ -8,6 +8,7 @@ Recommended: create a hosted Blazor WebAssembly solution which scaffolds Client,
 From the repo root run:
 
 dotnet new blazorwasm -ho -o src/SqlQuestGame
+
 mv src/SqlQuestGame/Client src/SqlQuestGame.Client
 mv src/SqlQuestGame/Server src/SqlQuestGame.Server
 mv src/SqlQuestGame/Shared src/SqlQuestGame.Shared
